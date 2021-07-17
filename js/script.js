@@ -17,8 +17,7 @@ $(".btn").on("click", function() {
         }
     } else if ($(this).hasClass("red-key")) {
         if (document.querySelector("#calculation").innerHTML.length != 0) {
-            var prob = $("#calculation").html();
-            $("#calculation").html(eval(prob));
+            $("#calculation").html("STOP Slouching!");
         }
     } else if ($(this).hasClass("reset")) {
         $("#calculation").html("0");
