@@ -1,1 +1,1 @@
-# stopSlouchingFakeCalculator
+Stop Slouching Fake Calculator app
